@@ -1,0 +1,459 @@
+/* Global Component
+ *
+ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bungee', cursive;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.object-fit-fill {
+    object-fit: fill;
+}
+
+.btn-costume {
+    background-color: #9666A5;
+    border: none;
+}
+
+.after-hero .image-container,
+.after-competition .image-container,
+.after-history .image-container {
+    width: 100%;
+    height: 200px;
+}
+
+.text-container {
+    opacity: 80%;
+}
+
+.hangul {
+    opacity: 20%;
+}
+
+::placeholder {
+    color: #9666A5;
+}
+
+.costume-form {
+    background-color: transparent;
+    border: 3px solid #9666A5;
+    padding: 15px;
+}
+
+.costume-form-input {
+    background-color: #9666A5;
+    color: #fff;
+    border: none;
+}
+
+.costume-form-file {
+    background-color: #9666A5;
+    color: #fff;
+    border: none;
+}
+
+/* Header Component
+ *
+ */
+
+.header {
+    background-color: #190B20;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.navbar-brand {
+    font-family: 'Bungee', cursive;
+}
+
+.nav-item {
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Hero Component
+ *
+ */
+
+.bg-hero {
+    background: rgba(35, 13, 45, 1);
+    background-color: linear-gradient(180deg, rgba(35, 13, 45, 1) 0%, rgba(71, 44, 102, 1) 100%);
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero .text-container h1 {
+    font-size: 64px;
+    padding: 10px;
+}
+
+
+/* About Component
+ *
+ */
+
+.bg-about {
+    background-color: #2F003D;
+}
+
+.about {
+    padding: 100px 0 50px;
+}
+
+.about h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.about-cards {
+    z-index: 99;
+    background-color: #40265B;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.about-cards .border {
+    border-radius: 15px !important;
+    border-color: #9666A5 !important;
+    border-width: 5px !important;
+}
+
+
+/* Competition Component
+ *
+ */
+
+.bg-competition {
+    background: linear-gradient(180deg, #2F003D 0%, #65098E 100%);
+}
+
+.competition {
+    padding-top: 100px;
+}
+
+.competition h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.game-cards {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 20px 0;
+    background-color: #472C66;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.game-cards .image-container {
+    background-color: #230D2D;
+    border-radius: 0px 0px 0px 15px;
+    padding: 50px;
+}
+
+.game-cards .text-container {
+    padding: 20px;
+}
+
+.game-cards .text-container h3 {
+    font-size: 48px;
+}
+
+
+/* Schedule Component
+ *
+ */
+
+.bg-schedule {
+    background-color: #3D2658;
+}
+
+.schedule {
+    padding-top: 100px;
+}
+
+.schedule .text-container {
+    font-size: 1.5em;
+}
+
+.schedule h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+
+/* Prizepool Component
+ *
+ */
+
+.bg-prizepool {
+    background-color: #3D2658;
+}
+
+.prizepool {
+    padding-top: 100px;
+}
+
+.prizepool h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.prizepool .text-container h3 {
+    font-size: 4.5em;
+    margin-top: 100px;
+}
+
+/* History Component
+ *
+ */
+
+.bg-history {
+    background: linear-gradient(180deg, #3D2658 0%, #4000BF 100%);
+}
+
+.history {
+    padding-top: 100px;
+}
+
+.history h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.history-cards {
+    background-color: #2F003D;
+    border-radius: 0 0 20px 20px;
+}
+
+.history-cards .text-container {
+    padding: 20px;
+}
+
+/* Gallery Component
+ *
+ */
+
+.bg-gallery {
+    background-color: #2F003D;
+}
+
+.gallery h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.gallery {
+    padding-top: 100px;
+}
+
+.gallery-slider {
+    margin-top: 100px;
+}
+
+/* Sponsor Component
+ *
+ */
+
+.bg-sponsor {
+    background: linear-gradient(180deg, #2F003D 0%, #230D2D 100%);
+}
+
+.sponsor {
+    padding-top: 100px;
+}
+
+.sponsor h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.sponsor-slider {
+    margin-top: 100px;
+}
+
+/* TOS Component
+ *
+ */
+
+.bg-tos {
+    background-color: #230D2D;
+}
+
+.tos {
+    padding-top: 100px;
+}
+
+.tos h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+
+/* FAQ Component
+ *
+ */
+
+.bg-faq {
+    background-color: #230D2D;
+}
+
+.faq {
+    padding-top: 100px;
+}
+
+.faq h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.faq-card-container .card-header,
+.faq-card-container .card {
+    background-color: #40265B;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.faq-card-container .card-header .btn {
+    color: #fff;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+/* Registration Component
+ *
+ */
+
+.bg-registration {
+    background-color: #230D2D;
+}
+
+.registration {
+    padding: 100px 0;
+}
+
+.registration h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.registration-card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 20px 0;
+    background-color: #2F003D;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.registration-card .text-container {
+    padding: 20px;
+}
+
+.registration-card h3 {
+    font-size: 2em;
+}
+
+.registration-card .detail-package {
+    text-align: left;
+    background-color: #6216BA;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+    font-family: 'Bungee', cursive;
+}
+
+.registration-card li {
+    margin-top: 10px;
+}
+
+/* Contact Component
+ *
+ */
+
+.bg-contact {
+    background: linear-gradient(180deg, #230D2D 0%, #000000 100%);
+}
+
+.contact {
+    padding: 100px 0;
+}
+
+.contact h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-radius: 15px;
+    height: 10px;
+    background-color: #9666A5;
+}
+
+.contact-card {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #9666A5;
+    color: #fff;
+    opacity: 80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+/* Footer Component
+ *
+ */
+
+.bg-footer {
+    background-color: #000000;
+}
