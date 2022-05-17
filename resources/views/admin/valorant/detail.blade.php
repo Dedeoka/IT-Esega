@@ -23,9 +23,20 @@
                                                     <ul class="list-group list-group-flush">
                                                         <li class="list-group-item">
                                                             <span class="d-block">{{ $player->name }} ({{ $player->role }})</span>
-                                                            <span class="d-block">Nick &nbsp &nbsp &nbsp &nbsp &nbsp: {{ $player->nick }} {{ $player->tagline }}</span>
+                                                            <span class="d-block">Nick &nbsp &nbsp &nbsp &nbsp &nbsp: {{ $player->nick }}</span>
+                                                            <span class="d-block">Tagline &nbsp &nbsp &nbsp: {{ $player->tagline }}</span>
                                                             <span class="d-block">No telpon : {{ $player->no_hp }}</span>
+                                                            <span class="d-block"> Email&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp: {{ $player->email }}</span>
                                                             <br/>
+                                                            <h6>Tanda Tangan :</h6>
+                                                            <span class="d-block">
+                                                                <img src="{{ asset('tanda_tanganV/'.$team->team_name.'/'.$player->tanda_tangan) }}" alt="" class="img-fluid">
+                                                            </span>
+                                                            <br/>
+                                                            <h6>Foto :</h6>
+                                                            <span class="d-block">
+                                                                <img src="{{ asset('fotoV/'.$team->team_name.'/'.$player->foto) }}" alt="" class="img-fluid">
+                                                            </span>
                                                         </li>
                                                     </ul>
                                                      @endforeach

@@ -17,9 +17,9 @@
                                                     @method('patch')
                                                     @csrf
                                                     <div class="form-container">
-                                                        <div class="custom-file my-3">
-                                                            <input type="file" class="custom-file-input @error('buktiBayar') is-invalid @enderror" id="buktiBayar" value="{{ old('buktiBayar') }}" name="buktiBayar" >
-                                                            <label class="custom-file-label costume-form-file" for="buktiBayar">Masukan Bukti Pembayaran</label>
+                                                         <div class="form-group">
+                                                            <label for="buktiBayar">Masukan Ulang Bukti Pembayaran (Bukti Transfer 100k ke (BNI 1232741889 A/N I GUSTI PUTU NGURAH PRIHANDANA))</label>
+                                                            <input type="file" name="buktiBayar" id="buktiBayar" class="form-control costume-form-file @error('buktiBayar') is-invalid @enderror" value="{{ old('buktiBayar') }}">
                                                             @error('buktiBayar')
                                                                 <div class="invalid-feedback">{{ $message }}</div>
                                                             @enderror

@@ -14,7 +14,7 @@
                                                 <div class="text-container  d-flex align-items-center text-light p-2 justify-content-between w-100">
                                                     <div class="info-name">{{ $item->title }}</div>
                                                     <div class="info-action">
-                                                        <a href="{{ url('notification/detail/'.$item->id) }}" class="btn btn-warning">View</a>
+                                                        <a href="{{ url('notification/detail/'.$item->title) }}" class="btn btn-warning">View</a>
                                                     </div>
                                                 </div>
                                             </div>

@@ -20,7 +20,7 @@
                                                         </div>
                                                         <div class="form-group">
                                                             <input type="text" class="form-control costume-form @error('id_peserta') is-invalid @enderror" value="{{ old('id_peserta', $item->id) }}" id="id_peserta" name="id_peserta{{$loop->iteration}}" placeholder="ID Peserta Team ..." hidden>
-                                                            <input type="text" class="form-control costume-form @error('nama') is-invalid @enderror" value="{{ $item->name }}" id="nama" name="nama{{$loop->iteration}}" placeholder="Nama  Team ..." >
+                                                            <input type="text" class="form-control costume-form @error('nama') is-invalid @enderror" value="{{ $item->name }}" id="nama" name="nama{{$loop->iteration}}" placeholder="Nama ..." >
                                                             @error('nama{{$loop->iteration}}')
                                                                 <div class="invalid-feedback">{{ $message }}</div>
                                                             @enderror
@@ -32,7 +32,7 @@
                                                             @enderror
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control costume-form @error('id') is-invalid @enderror" value="{{ $item->tagline }}" id="id" name="id{{$loop->iteration}}" placeholder="ID(Server) ..." >
+                                                            <input type="text" class="form-control costume-form @error('id') is-invalid @enderror" value="{{ $item->tagline }}" id="id" name="id{{$loop->iteration}}" placeholder="Tagline ..." >
                                                             @error('id{{$loop->iteration}}')
                                                                 <div class="invalid-feedback">{{ $message }}</div>
                                                             @enderror
@@ -40,6 +40,27 @@
                                                         <div class="form-group">
                                                             <input type="text" class="form-control costume-form @error('nohp') is-invalid @enderror" value="{{ $item->no_hp }}" id="nohp" name="nohp{{$loop->iteration}}" placeholder="No WA ..." >
                                                             @error('nohp{{$loop->iteration}}')
+                                                                <div class="invalid-feedback">{{ $message }}</div>
+                                                            @enderror
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control costume-form @error('email{{$loop->iteration}}') is-invalid @enderror" value="{{ $item->email }}" id="email{{$loop->iteration}}" name="email{{$loop->iteration}}" placeholder="Email ..." >
+                                                            @error('email{{$loop->iteration}}')
+                                                                <div class="invalid-feedback">{{ $message }}</div>
+                                                            @enderror
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-group">
+                                                            <label for="tandaTangan{{$loop->iteration}}">Tanda Tangan Peserta</label>
+                                                            <input type="file" name="tandaTangan{{$loop->iteration}}" id="tandaTangan{{$loop->iteration}}" class="form-control costume-form-file @error('tandaTangan{{$loop->iteration}}') is-invalid @enderror">
+                                                            @error('tandaTangan{{$loop->iteration}}')
+                                                                <div class="invalid-feedback">{{ $message }}</div>
+                                                            @enderror
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="fotoPeserta{{$loop->iteration}}">Foto Peserta</label>
+                                                            <input type="file" name="fotoPeserta{{$loop->iteration}}" id="fotoPeserta{{$loop->iteration}}" class="form-control costume-form-file @error('fotoPeserta{{$loop->iteration}}') is-invalid @enderror">
+                                                            @error('fotoPeserta{{$loop->iteration}}')
                                                                 <div class="invalid-feedback">{{ $message }}</div>
                                                             @enderror
                                                         </div>

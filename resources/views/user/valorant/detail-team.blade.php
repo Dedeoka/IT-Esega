@@ -25,6 +25,7 @@
                                                             <span class="d-block">{{ $player->name }} ({{ $player->role }})</span>
                                                             <span class="d-block">Nick &nbsp &nbsp &nbsp &nbsp &nbsp: {{ $player->nick }} {{ $player->tagline }}</span>
                                                             <span class="d-block">No telpon : {{ $player->no_hp }}</span>
+                                                            <span class="d-block"> Email&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp: {{ $player->email }}</span>
                                                         </li>
                                                     </ul>
                                                     @endforeach

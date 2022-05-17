@@ -20,8 +20,9 @@ class CreateValoPlayersTable extends Migration
             $table->string('nick');
             $table->string('tagline');
             $table->string('no_hp');
-            $table->string('tanda_tangan');
-            $table->string('foto');
+            $table->string('email');
+            $table->string('tanda_tangan')->nullable();
+            $table->string('foto')->nullable();
             $table->enum('role', ['ketua', 'member', 'cadangan']);
             $table->timestamps();
         });

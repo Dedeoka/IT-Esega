@@ -26,6 +26,7 @@
                                                             <span class="d-block"> Nick&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp: {{ $player->nick }}</span>
                                                             <span class="d-block"> ID (server) : {{ $player->id_server }}</span>
                                                             <span class="d-block"> No telpon : {{ $player->no_hp }}</span>
+                                                            <span class="d-block"> Email&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp: {{ $player->email }}</span>
                                                         </li>
                                                     </ul>
                                                     @endforeach

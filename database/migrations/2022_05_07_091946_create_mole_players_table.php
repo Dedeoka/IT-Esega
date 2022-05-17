@@ -14,14 +14,15 @@ class CreateMolePlayersTable extends Migration
     public function up()
     {
         Schema::create('mole_players', function (Blueprint $table) {
-           $table->id();
+            $table->id();
             $table->foreignId('team_id')->constrained('mole_teams')->onDelete('cascade')->onUpdate('cascade');
             $table->string('name');
             $table->string('nick');
             $table->string('id_server');
             $table->string('no_hp');
-            $table->string('tanda_tangan');
-            $table->string('foto');
+            $table->string('email');
+            $table->string('tanda_tangan')->nullable();
+            $table->string('foto')->nullable();
             $table->enum('role', ['ketua', 'member', 'cadangan']);
             $table->timestamps();
         });

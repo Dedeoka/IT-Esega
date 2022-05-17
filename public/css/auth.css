@@ -2,7 +2,7 @@
  *
  */
 
- .bg-auth{
+.bg-auth{
     background: rgba(35,13,45,1);
     background-color: linear-gradient(180deg, rgba(35,13,45,1) 0%, rgba(71,44,102,1) 100%);
 }
@@ -10,7 +10,7 @@
     padding-top: 100px;
 }
 .auth .text-container h1{
-    font-size: 64px;
+    font-size: 4em;
     padding: 10px;
 }
 .auth-card{
@@ -22,4 +22,9 @@
 }
 .form-group{
     margin: 20px auto;
+}
+@media screen and (max-width:576px) {
+    .auth .text-container h1{
+        font-size: 2em;
+    }   
 }

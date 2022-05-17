@@ -2,50 +2,36 @@
  *
  */
 
-.bg-free-space {
-    background: rgba(35, 13, 45, 1);
-    background-color: linear-gradient(180deg, rgba(35, 13, 45, 1) 0%, rgba(71, 44, 102, 1) 100%);
+.bg-free-space{
+    background: rgba(35,13,45,1);
+    background-color: linear-gradient(180deg, rgba(35,13,45,1) 0%, rgba(71,44,102,1) 100%);
 }
-
-.free-space {
+.free-space{
     padding: 100px 20px;
 }
-
-.free-space .text-container h1 {
-    font-size: 64px;
+.free-space .text-container h1{
+    font-size: 4em;
     padding: 10px;
 }
-
-.text-notification {
-    width: 100%;
-    white-space: pre-wrap;
-    /* Webkit */
-    white-space: -moz-pre-wrap;
-    /* Firefox */
-    white-space: -pre-wrap;
-    /* Opera <7 */
-    white-space: -o-pre-wrap;
-    /* Opera 7 */
-    word-wrap: break-word;
-    /* IE */
+@media screen and (max-width:576px) {
+    .free-space .text-container h1{
+        font-size: 1em;
+    }
 }
 
 /* Sidebar Component */
 
-.sidebar {
+.sidebar{
     padding-top: 100px;
-    background: rgb(57, 2, 76);
-    background: linear-gradient(90deg, rgba(57, 2, 76, 1) 40%, rgba(96, 44, 113, 1) 75%, rgba(150, 102, 165, 1) 100%);
+    background: rgb(57,2,76);
+    background: linear-gradient(90deg, rgba(57,2,76,1) 40%, rgba(96,44,113,1) 75%, rgba(150,102,165,1) 100%);
 }
-
-.sidebar .nav-link {
+.sidebar .nav-link{
     color: #fff;
 }
-
 .sidebar .active {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255,255,255,0.2);
 }
-
 /* .sidebar .nav-link:hover{
     background-color: rgba(255,255,255,0.2);
     border-left: 5px solid #40265B;
@@ -53,21 +39,20 @@
 
 /* dashboard-card */
 
-.dashboard-card {
+.dashboard-card{
     z-index: 99;
     background-color: #3E1587;
     padding: 20px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-
-.form-group {
+.form-group{
     margin: 20px auto;
 }
 
 /* team-card */
 
-.team-card {
+.team-card{
     z-index: 99;
     background-color: #40265B;
     padding: 20px;
@@ -76,35 +61,30 @@
     margin: 10px 0;
 }
 
-.team-card .border {
+.team-card .border{
     border-radius: 15px !important;
     border-color: #9666A5 !important;
     border-width: 5px !important;
 }
-
-.team-name {
+.team-name{
     font-size: 30px;
-    font-family: 'Bungee', cursive;
-    overflow-inline: inherit;
+    font-family: 'ferocityitalic', 'Bungee', cursive;
     padding: 0 20px;
     margin: 0;
 }
-
-.team-card .team-action {
+.team-card .team-action{
     color: #fff;
 }
-
-.team-card .team-action .btn {
+.team-card .team-action .btn{
     margin: 0 5px;
 }
 
 /* team-detail */
 
-.team-detail-header {
+.team-detail-header{
     border-radius: 20px 20px 0 0;
 }
-
-.team-detail-header {
+.team-detail-header{
     z-index: 99;
     background-color: #40265B;
     padding: 20px;
@@ -112,31 +92,27 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin: 10px 0;
 }
-
-.team-detail-body {
+.team-detail-body{
     padding: 20px;
     color: #fff;
 }
-
-.team-detail-body {
-    background-color: rgba(64, 38, 91, 0.4);
+.team-detail-body{
+    background-color: rgba(64,38,91,0.4);
     border-radius: 0 0 20px 20px;
 }
-
-.list-group-item {
+.list-group-item{
     background-color: transparent;
     border: 1px solid #fff;
 }
-
-.list-group-item span:first-child {
+.list-group-item span:first-child{
     font-size: 18px;
-    font-family: 'Bungee', cursive;
+    font-family: 'ferocityitalic', 'Bungee', cursive;
 }
 
 
 /* info-card Component */
 
-.info-card {
+.info-card{
     z-index: 99;
     background-color: #40265B;
     padding: 20px;
@@ -145,23 +121,20 @@
     margin: 10px 0;
 }
 
-.info-card .border {
+.info-card .border{
     border-radius: 15px !important;
     border-color: #9666A5 !important;
     border-width: 5px !important;
 }
-
-.info-name {
+.info-name{
     font-size: 18px;
-    font-family: 'Bungee', cursive;
+    font-family: 'ferocityitalic', 'Bungee', cursive;
     padding: 0 20px;
     margin: 0;
 }
-
-.info-card .info-action {
+.info-card .info-action{
     color: #fff;
 }
-
-.info-card .info-action .btn {
+.info-card .info-action .btn{
     margin: 0 5px;
 }
