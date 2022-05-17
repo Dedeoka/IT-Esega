@@ -387,39 +387,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="history-cards mt-5">
-                                        <div class="image-container">
-                                            <img src="img/Juara 1_ML_2021 (Arche Kara).jpg" alt="" class="img-fluid">
-                                        </div>
-                                        <div class="text-container text-light text-center">
-                                            <h3>Arche Kara</h3>
-                                            <p>Champion of Mobile Legend IT-ESEGA 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="history-cards mt-5">
-                                        <div class="image-container">
-                                            <img src="img/Juara 2_ML_2021 (Arche Pro).jpg" alt="" class="img-fluid">
-                                        </div>
-                                        <div class="text-container text-light text-center">
-                                            <h3>Arche Pro</h3>
-                                            <p>Second Place of Mobile Legend IT-ESEGA 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="history-cards mt-5">
-                                        <div class="image-container">
-                                            <img src="img/Juara 3_ML_2021 (HMTI).jpg" alt="" class="img-fluid">
-                                        </div>
-                                        <div class="text-container text-light text-center">
-                                            <h3>HMTI ML</h3>
-                                            <p>Third Place of Mobile Legend IT-ESEGA 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="col-12">
                                     <div class="img-container text-center">
                                         <img src="img/korea-history.png" alt="" class="img-fluid hangul">
