@@ -126,7 +126,7 @@
                                         <div class="row d-flex align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="image-container text-center my-3">
-                                                    <iframe style="width: 100%; height: 300px;" src="https://www.youtube.com/embed/DHK27NAaJPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscree></iframe>
+                                                    <iframe style="width: 100%; height: 300px;" src="https://www.youtube.com/embed/cL0WKd7rRzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscree></iframe>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
@@ -225,23 +225,29 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="text-container text-light text-center my-5">
-                                        <p>EVENT ON THE ESEGA DAY</p>
-                                    </div>
+                                    <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link schedule-tabs active big-word" id="pills-mobile-legend-tab" data-toggle="pill" href="#pills-mobile-legend" role="tab" aria-controls="pills-mobile-legend" aria-selected="true">Mobile Legend</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link schedule-tabs big-word" id="pills-valorant-tab" data-toggle="pill" href="#pills-valorant" role="tab" aria-controls="pills-valorant" aria-selected="false">Valorant</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="badge d-flex justify-content-center">
-                                        <button class="btn btn-costume btn-danger text-container text-light text-center d-inline-block p-3 w-50">WEEK 1</button>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="badge d-flex justify-content-center">
-                                        <button class="btn btn-costume btn-danger text-container text-light text-center d-inline-block p-3 w-50">WEEK 2</button>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="badge d-flex justify-content-center">
-                                        <button class="btn btn-costume btn-danger text-container text-light text-center d-inline-block p-3 w-50">WEEK 3</button>
+                                <div class="col-12 d-flex justify-content-center">
+                                    <div class="schedule-card mb-5">
+                                        <div class="text-container">
+                                            <div class="tab-content my-5" id="pills-tabContent">
+                                                <div class="tab-pane fade show active px-3" id="pills-mobile-legend" role="tabpanel" aria-labelledby="pills-mobile-legend-tab">
+                                                    <p class="big-word">ON July <small>15<sup>th</sup>, 16<sup>th</sup>, 17<sup>th</sup></small></p>
+                                                    <p class="sub-big-word"><i class="fa fa-map-marker" aria-hidden="true"></i>lippo mall kuta</p>
+                                                </div>
+                                                <div class="tab-pane fade px-3" id="pills-valorant" role="tabpanel" aria-labelledby="pills-valorant-tab">
+                                                    <p class="big-word">ON July <small>1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup></small></p>
+                                                    <p class="sub-big-word"><i class="fa fa-map-marker" aria-hidden="true"></i>Online</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -384,6 +390,39 @@
                                         <div class="text-container text-light text-center">
                                             <h3>Nerf Esports</h3>
                                             <p>Third Place of Mobile Legend IT-ESEGA 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="history-cards mt-5">
+                                        <div class="image-container">
+                                            <img src="img/Juara 1_ML_2021.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="text-container text-light text-center">
+                                            <h3>Arche Kara</h3>
+                                            <p>Champion of Mobile Legend IT-ESEGA 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="history-cards mt-5">
+                                        <div class="image-container">
+                                            <img src="img/Juara 2_ML_2021.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="text-container text-light text-center">
+                                            <h3>Arche Pro</h3>
+                                            <p>Second Place of Mobile Legend IT-ESEGA 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="history-cards mt-5">
+                                        <div class="image-container">
+                                            <img src="img/Juara 3_ML_2021.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="text-container text-light text-center">
+                                            <h3>HMTI ML</h3>
+                                            <p>Third Place of Mobile Legend IT-ESEGA 2021</p>
                                         </div>
                                     </div>
                                 </div>
