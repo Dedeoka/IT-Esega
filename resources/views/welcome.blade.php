@@ -527,22 +527,27 @@
                                             <ul class="splide__list">
                                                 <li class="splide__slide">
                                                     <div class="image-container text-center">
-                                                        <img src="img/Logo TI.png" alt="" class="img-fluid rounded">
+                                                        <img src="img/KSP Sari Apuan.png" alt="" class="img-fluid rounded">
                                                     </div>
                                                 </li>
                                                 <li class="splide__slide">
                                                     <div class="image-container text-center">
-                                                        <img src="img/Logo TI.png" alt="" class="img-fluid rounded">
+                                                        <img src="img/pelangi dupa.png" alt="" class="img-fluid rounded">
                                                     </div>
                                                 </li>
                                                 <li class="splide__slide">
                                                     <div class="image-container text-center">
-                                                        <img src="img/Logo TI.png" alt="" class="img-fluid rounded">
+                                                        <img src="img/tunas mekar.png" alt="" class="img-fluid rounded">
                                                     </div>
                                                 </li>
                                                 <li class="splide__slide">
                                                     <div class="image-container text-center">
-                                                        <img src="img/Logo TI.png" alt="" class="img-fluid rounded">
+                                                        <img src="img/gumi cookies.png" alt="" class="img-fluid rounded">
+                                                    </div>
+                                                </li>
+                                                <li class="splide__slide">
+                                                    <div class="image-container text-center">
+                                                        <img src="img/pt agung jaya internasional.png" alt="" class="img-fluid rounded">
                                                     </div>
                                                 </li>
                                             </ul>

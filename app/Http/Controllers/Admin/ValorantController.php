@@ -249,7 +249,8 @@ class ValorantController extends Controller
     }
 
     public function delete($id){
-        DB::table('Valo_teams')->where('id', $id)->delete();
+        $team = Valo_team::find($id);
+        $team->delete();
         return redirect()->route('valo-admin')->with('success', 'Data Berhasil Dihapus');
     }
 
