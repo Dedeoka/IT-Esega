@@ -23,7 +23,7 @@ class ValorantController extends Controller
         $test = Valo_team::where('user_id','=', $user->id)->first();
         $slot = Valo_team::sum('slot');
         if(is_null($test)){
-            if($slot >= "32"){
+            if($slot >= "36"){
                 $notif_slot = Notification::find('7');
                 return view ('user.notification.slot-penuh', compact('notif_slot'));
             }else{
